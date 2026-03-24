@@ -1,7 +1,7 @@
 # Aviation Operations Performance Engine (A350 Focus)
 
 ## ✈️ Project Overview
-This repository contains a Python-based analytical engine designed to optimize **Airbus A350 Turnaround Efficiency** and monitor **Fuel Variances**. Built specifically for airline operations management, the tool transforms raw flight logs into actionable insights to improve On-Time Performance (OTP) and reduce operational "leakage."
+This repository contains a Python-based analytical engine designed to optimize **Airbus Sustainability50 (A350-1000) Turnaround Efficiency** and monitor **Fuel Variances**. Built specifically for airline operations management, the tool transforms raw flight logs into actionable insights to improve On-Time Performance (OTP) and reduce operational "leakage."
 
 ## 📊 Project Objectives
 * **Minimize Turnaround Leakage:** Identify and quantify the financial impact of ground delays.
@@ -17,7 +17,7 @@ Implementing this performance engine provides tangible value to airline operatio
 * **Data-Driven Vendor Management:** Moves contract discussions from anecdotal evidence to hard data. Monthly Performance Reviews (MPRs) with ground handlers are backed by "Root Cause" evidence, ensuring accountability and driving sustainable change.
 
 ## 📈 Key Performance Indicators (KPIs)
-The success of the **Aviation Operations Performance Engine** is measured by the following metrics, tracked in **South African Rands (R)** for financial precision:
+The success of the **Aviation Operations Performance Engine** is measured by the following metrics, tracked in **UAE Dirhams (AED)** for financial precision:
 
 | KPI | Strategic Objective | Metric Definition |
 | :--- | :--- | :--- |
@@ -26,6 +26,15 @@ The success of the **Aviation Operations Performance Engine** is measured by the
 | **Fuel Uplift Variance** | Sustainability | The % difference between the Flight Plan (OFP) required fuel and the actual uplifted fuel. |
 | **Vendor Turnaround Index** | Efficiency | A weighted score ranking ground handlers based on their ability to meet the "Clean Turnaround" window. |
 | **RCA Accuracy** | Process Improvement | The % of delayed flights successfully mapped to a specific Root Cause (Catering, Fuel, Tech, etc.). |
+
+## ⚙️ Installation & Usage
+1. Clone the repository: `git clone https://github.com/m-yusri-ajam/aviation-ops-performance-engine`
+2. Create a virtual environment: `python3 -m venv venv`
+3. Install dependencies: `pip install pandas` (Note: Looker Studio handles the visualization)
+4. Generate the logs: `python3 src/data_generator.py`
+5. Process the KPIs: `python3 src/analyzer.py`
+
+📊 [Live Operational Dashboard](https://lookerstudio.google.com/reporting/50a15298-e043-41fc-92b0-2baacec1706a)
 
 ## 🛠️ Technical Stack
 * **Language:** Python 3.x
