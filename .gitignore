@@ -6,10 +6,9 @@ __pycache__/
 env/
 venv/
 .vscode/
-reports/
+
 
 # Data & Logs
-data/*.csv
 data/*.xlsx
 *.log
 
